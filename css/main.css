@@ -1,0 +1,59 @@
+/**Google Fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;
+**/
+
+body {
+    background: #E8E8E8;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#vision-board {
+    background-image: url("/img/background.png");
+    width: 1200px;
+    height: 850px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solid-box {
+    background: #fff;
+}
+
+.center-block {
+    background: #3B3B3B;
+    text-align: center;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+strong {
+    text-transform: none;
+    font-size: 38px;
+}
+
+.year {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.hero {
+    font-size: 30px;
+    color: #fff;
+}
+
+.highlight {
+      background: #FFF44F;
+      text-transform: uppercase;
+  }
+
